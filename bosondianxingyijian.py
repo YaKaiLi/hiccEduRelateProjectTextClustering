@@ -16,7 +16,7 @@ cursor = connection.cursor()
 sql = "INSERT INTO dianxingyijian (dianxingyijian, yijianneirong,neirongid) VALUES ( '%s', '%s', %.2f)"
 
 # 注意：在测试时请更换为您的API Token
-nlp = BosonNLP('-TEm4UNh.21400.6lu63GlA8oFm')
+nlp = BosonNLP('')
 
 
 def print_comments(idx, comments):
