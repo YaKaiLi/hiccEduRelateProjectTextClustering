@@ -3,7 +3,7 @@ from __future__ import print_function, unicode_literals
 from bosonnlp import BosonNLP
 
 # 注意：在测试时请更换为您的API Token
-nlp = BosonNLP('bCIGNuSL.21386.I6bZhObH-7AP')
+nlp = BosonNLP('')
 
 
 def print_cluster(docs, idx, result):
